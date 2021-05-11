@@ -1,0 +1,105 @@
+
+
+.title{
+    text-align: center;
+}
+
+.header {
+    background-color:blueviolet ;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Itim', cursive;
+  }
+
+  
+
+.buscar {
+    margin: 0;
+    text-align: center;
+   
+    width: 50%;
+    padding: 10px;
+    
+    font-size: 18px;
+    font-family: 'Itim', cursive;
+  }
+
+  .addBtn {
+    padding: 10px;
+    width: 15%;
+    background: #FFD700;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    font-family: 'Itim', cursive;
+  }
+  .addBtn:hover {
+    
+    background-color: #bbb;
+    color: black;
+   
+  } 
+
+  .tabla{
+      border: solid  1px;
+    
+    font-family: 'Itim', cursive;
+  }
+
+  .center{
+    text-align: center;
+
+  }
+
+  .botonBuscar {
+    padding: 10px;
+   
+    background: #FFD700;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    font-family: 'Itim', cursive;
+  }
+  .botonBuscar:hover {
+    
+    background-color: #bbb;
+    color: black;
+   
+  } 
+  
+  .modal-content {
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.footer{
+  background-color: blueviolet;
+  color:white;
+  
+
+}
