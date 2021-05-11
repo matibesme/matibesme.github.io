@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Buscador de peliculas</title>        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://kit.fontawesome.com/70e80944f8.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+       
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />	
+	
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />        <link href="css.css" rel="stylesheet"/>	
+    </head>
+    <body>
+        <div class="container-fluid header">
+            <div c>
+                <h1 class="mb-3 title">Busca informacion sobre tu peliclua o serie, una buena forma de entretenerse</h1>
+                <img src="https://acasti8.files.wordpress.com/2018/03/cropped-logo_alba-mc2aa-castillc3b3-pc3a9rez.png" alt="Logo" width="200" height="200">
+                <div class="row pt-5">
+                    <div class="col-12 center">
+                        <input class="buscar" id="titulo" type="text" placeholder=" Titulo...">
+                    </div>
+                    <div class="col-12 center">
+                        <select class="mt-2 mb-2 buscar" name="opciones" id="tipo">
+                            <option value="movie">Pelicula</option>
+                            <option value="series">Serie</option>
+                            <option value="episode">Capitulo</option>
+                        </select>
+                    </div>
+                    <div class="col-12 center">
+                        <input class="buscar" id="año" type="number" placeholder=" Año...">
+                    </div>
+                    
+                </div>
+            
+                    
+                
+                
+                
+                
+                
+                <button class="btn btn-primary mt-2 mb-2 addBtn" id="buscar" onclick="traerApi()">  Buscar</button>
+            </div>
+
+            
+
+        </div>
+
+        <div class="container pt-3 center">
+            <table class="table mt-4 tabla">
+                <thead>
+                  <tr class="table-info">
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Año</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Portada</th>
+                    <th scope="col">Mas info</th>
+                  </tr>
+                </thead>
+                <tbody id="listaPel"></tbody>
+                </table>
+        </div>
+        
+       
+        <footer class=" bg-2   footer ">
+            <div class="text-center py-3">
+                © 2020 Copyright
+                <a href="https://www.instagram.com/matibesme/" class="text-white " style="text-decoration: none;"> Matias Besmedrisnik</a>
+            </div>
+        </footer>
+        
+
+        <script src="codigo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+   
+    </body>
+</html>
