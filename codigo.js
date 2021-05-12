@@ -1,5 +1,5 @@
 const listaPel = document.getElementById('listaPel');
-const url = 'http://www.omdbapi.com/?apikey=1c0a7fbd'
+const url = 'https://www.omdbapi.com/?apikey=1c0a7fbd'
 
 
 
